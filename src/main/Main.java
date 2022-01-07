@@ -62,7 +62,7 @@ public class Main {
         System.out.println();
         System.out.println(j1.getName()+ " était en train de se promener dans les bois quand soudain un adversaire apparaît !");
 
-        EnigmeGame.playEnigme();
+        //EnigmeGame.playEnigme();
         Classe advClass = new Classe("Démon");
         Attaque sortInutile= new Attaque("Trempette",5,30,AttackType.TENEBRE);
         Attaque sortPuissance= new Attaque("Boule de la mort qui tue",80,50,AttackType.TENEBRE);

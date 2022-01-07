@@ -37,7 +37,7 @@ public class Setup {
         )
         ));
         Classe bouffon = new Classe("Bouffon");
-        archer.setLstAtk(new ArrayList<>(Arrays.asList(
+        bouffon.setLstAtk(new ArrayList<>(Arrays.asList(
                 new Attaque("Taquinerie",30,20,AttackType.TERRE),
                 new Attaque("Jonglage",20,15,AttackType.TERRE),
                 attaqueBasique
