@@ -1,6 +1,26 @@
 package interfaces.Images;
 
 public class GraphicTools {
+    public static void ImageSablesMouvant(){
+/*
+ =============================================================================
+
+ */
+        System.out.println("                         ____________________ %%%%%%%__\\");
+        System.out.println("                      _======================.', ',''==_\\");
+        System.out.println("                    _=  /%%%%%%%%%%%%%%%%%%% ;',(' 0 \\,%%\\  =_");
+        System.out.println("                  _=  /%%%%%%%%%%%%____.,__.,''-  __;%%%%%\\  =_");
+        System.out.println("                _=  /%%%%%_%%%%%,/    `::    _   :%%%%%%%%%\\  =_");
+        System.out.println("              _=  /%%%%%_/ `--.'|     `::    '  ,;%%%%%%%%\\  =_");
+        System.out.println("            _=  /%%%%%%(,-'-..__`,===.,::___' .'--.,-%%%%%%%%\\  =_");
+        System.out.println("          _=  /%%%%%%%%%%%%_/ `--:.  ;-'`   `. `._ %%%%%%%%%%%\\  =_");
+        System.out.println("        _=  /%%%%%%%%%%%%%(,-'-...__,'%%%%%% `, ,'  %%%%%%%%%%%\\  =_");
+        System.out.println("      _=  /%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%`-'% %%%%%%%%%%%%\\  =_");
+        System.out.println("    _=  /%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Catalyst%\\  =_");
+        System.out.println("    _= /%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Catalyst%\\  =_");
+
+
+    }
     public static void gameOver() {
         System.out.println("                     `.    .                       ");
         System.out.println("           `-             -|-                    `-");

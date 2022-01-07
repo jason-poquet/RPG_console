@@ -72,7 +72,7 @@ public class Combat {
 
     public static void launchAttaque(Attaque atk, Personnage target, Personnage launcher)
     {
-        System.out.println(atk.getLibelleAttaque() + "attention ça va faire mal");
+        System.out.println(atk.getLibelleAttaque() + "  attention ça va faire mal");
         if(launcher.getPm() >= atk.getCoutMana())
         {
             double damage = atk.getPuissance() * calcFaiblesse(target,atk);
@@ -96,14 +96,14 @@ public class Combat {
             case HUMAIN :
                 if(atk.getType() == AttackType.TENEBRE)
                 {
-                    System.out.println("Coups critique !!!!");
+                    System.out.println("Coup critique !!!!");
                     faiblesse = 1.2;
                 }
                 break;
             case VAMPIRE :
                 if(atk.getType() == AttackType.VENT)
                 {
-                    System.out.println("Coups critique !!!!");
+                    System.out.println("Coup critique !!!!");
                     faiblesse = 2;
                 }
          };
@@ -120,14 +120,14 @@ public class Combat {
     {
         System.out.println("Liste des attaques :");
         int index = 0;
-        System.out.println("100 : fuir comme un lache");
+        System.out.println("100 : fuir comme un lâche");
         for (Attaque at : j1.getClasse().getLstAtk()) {
-            System.out.println(index+" "+at.getLibelleAttaque());
+            System.out.println(j1.getClasse().getLstAtk().indexOf(at)+" "+at.getLibelleAttaque());
         }
-        int chAtk = -1;
+        int chAtk = sc.nextInt();
         while(chAtk > j1.getClasse().getLstAtk().size() && chAtk < j1.getClasse().getLstAtk().size() && chAtk != 100){
             chAtk = sc.nextInt();
-    }
+        }
         if(chAtk == 100)
         {
             finCombatFuite(j1,a1);
