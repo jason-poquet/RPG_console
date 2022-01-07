@@ -1,4 +1,5 @@
 package enums;
 
 public enum Race {
+    HUMAIN,PANDAREN,ELFE,NAIN,GOBELIN,GNOME,ORC,VAMPIRE,LOUP_GAROU,TROLL
 }
